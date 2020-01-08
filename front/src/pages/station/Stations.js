@@ -427,14 +427,14 @@ class Project extends React.Component {
                                         {this.state.listSeed.map((seed, index) => {
                                             return (
                                                 <option className='d-inline' value={seed._id}>
-                                                    {seed.seed === "cucumber"
-                                                        ? "Dưa chuột"
-                                                        : "" || seed.seed === "tomato"
+                                                    {seed.seed === "tomato"
                                                         ? "Cà chua"
                                                         : "" || seed.seed === "pakchoi"
-                                                        ? "Cải ngọt"
-                                                        : "" || seed.seed === "brassica"
                                                         ? "Cải chíp"
+                                                        : "" || seed.seed === "brassica"
+                                                        ? "Cải ngọt"
+                                                        : "" || seed.seed === "cucumber"
+                                                        ? "Dưa chuột"
                                                         : "" || seed.seed === "cabbage"
                                                         ? "Bắp cải"
                                                         : ""}

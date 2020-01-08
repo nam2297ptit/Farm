@@ -179,9 +179,9 @@ class Config extends React.Component {
                             defaultValue={this.state.data.seed}
                             disabled>
                             <option value={this.state.listSeed[0]._id}>Cà chua</option>
-                            <option value={this.state.listSeed[1]._id}>Dưa chuột</option>
+                            <option value={this.state.listSeed[1]._id}>Cải chíp</option>
                             <option value={this.state.listSeed[2]._id}>Cải ngọt</option>
-                            <option value={this.state.listSeed[3]._id}>Cải chíp</option>
+                            <option value={this.state.listSeed[3]._id}>Dưa chuột</option>
                             <option value={this.state.listSeed[4]._id}>Bắp cải</option>
                         </Input>
                     </Col>

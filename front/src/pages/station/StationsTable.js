@@ -53,9 +53,9 @@ class TableProject extends React.Component {
                                 <h6 className="text-muted table-project__h6 mt-1">Giống cây: 
                                 {
                                     this.state.data.seed_name === "tomato" ? " Cà chua" : ""||
+                                    this.state.data.seed_name === "pakchoi" ? " Cải chíp" : ""||
+                                    this.state.data.seed_name === "brassica" ? " Cải ngọt" : ""||
                                     this.state.data.seed_name === "cucumber" ? " Dưa chuột" : ""||
-                                    this.state.data.seed_name === "pakchoi" ? " Cải ngọt" : ""||
-                                    this.state.data.seed_name === "brassica" ? " Cải chíp" : ""||
                                     this.state.data.seed_name === "cabbage" ? " Bắp cải" : ""
                                 }
                                 </h6>

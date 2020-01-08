@@ -105,8 +105,8 @@ class StationInformation extends React.Component {
                                             {
                                             data.seed_name === "tomato" ? "Cà chua" : ""||
                                             data.seed_name === "cucumber" ? "Dưa chuột" : ""||
-                                            data.seed_name === "pakchoi" ? "Cải ngọt" : ""||
-                                            data.seed_name === "brassica" ? "Cải chíp" : ""||
+                                            data.seed_name === "pakchoi" ? "Cải chíp" : ""||
+                                            data.seed_name === "brassica" ? "Cải ngọt" : ""||
                                             data.seed_name === "cabbage" ? "Bắp cải" : ""
                                             }
                                         </Link>
